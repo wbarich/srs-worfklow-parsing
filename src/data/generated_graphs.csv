@@ -1,0 +1,79 @@
+ProjectID,from_node,to_node
+20,Start,Access System
+20,Access System,View Menu
+20,View Menu,Exclusive Gateway: Need to log in?
+20,Exclusive Gateway: Need to log in?,User Login
+20,Exclusive Gateway: Need to log in?,End
+20,User Login,Verify Credentials
+20,Verify Credentials,Exclusive Gateway: Company network?
+20,Exclusive Gateway: Company network?,Successful Login and Redirection
+20,Exclusive Gateway: Company network?,Home Access Authorization
+20,Home Access Authorization,Exclusive Gateway: Authorized?
+20,Exclusive Gateway: Authorized?,Successful Login and Redirection
+20,Exclusive Gateway: Authorized?,End: Access Denied
+20,Successful Login and Redirection,Exclusive Gateway: User role?
+20,Exclusive Gateway: User role?,Menu Management
+20,Exclusive Gateway: User role?,Order Placement
+20,Menu Management,Save Changes
+20,Save Changes,Display Confirmation
+20,Display Confirmation,End
+20,Order Placement,Submit Order
+20,Submit Order,Encrypt Transactions
+20,Encrypt Transactions,Process Order
+20,Process Order,Display Confirmation
+20,Display Confirmation,End
+20,Successful Login and Redirection,End
+20,Order Placement,End
+20,View Menu,End
+20,Submit Query,Process Query
+20,Process Query,Load Query Results
+20,Load Query Results,End
+20,Log Out,Ensure Secure Termination
+20,Ensure Secure Termination,End
+35,Start,Display Logo and Basic Design
+35,Display Logo and Basic Design,Attractive Design: Client's Requirement
+35,Attractive Design: Client's Requirement,Comfortable User Experience
+35,Comfortable User Experience,Reflect Seriousness of Environment
+35,Reflect Seriousness of Environment,Manage Information from Database and Catalogue
+35,Manage Information from Database and Catalogue,Web Based Product
+35,Web Based Product,Integrated with IT Services and Portal
+35,Integrated with IT Services and Portal,Self-Supporting Registration System
+35,Self-Supporting Registration System,Compatible Web Interface
+35,Compatible Web Interface,Accessible to Stakeholders and Guests
+35,Accessible to Stakeholders and Guests,Secure and Private Client Access
+35,Secure and Private Client Access,Access for Admin and Service Man
+35,Access for Admin and Service Man,Identification through ID and Password
+35,Identification through ID and Password,Develop Security System
+35,Develop Security System,End: Security System Implemented
+34,Start,Customer Transaction
+34,Customer Transaction,Encrypt Sensitive Data
+34,Encrypt Sensitive Data,SSL Transaction
+34,SSL Transaction,End
+34,Customer Transaction,Automatic Logout
+34,Automatic Logout,End
+34,Customer Transaction,Remove Password Cookies
+34,Remove Password Cookies,End
+34,Start,Back-end Server Access
+34,Back-end Server Access,Administrator Authentication
+34,Administrator Authentication,End
+34,Start,Database Storage
+34,Database Storage,Redundant Computers
+34,Redundant Computers,Automatic Switchover
+34,Automatic Switchover,End
+34,Start,Reliability
+34,Reliability,Separate Components
+34,Separate Components,Database Backup
+34,Database Backup,Continuous Maintenance and Update
+34,Continuous Maintenance and Update,End
+34,Start,End-user Access
+34,End-user Access,OS Compatibility
+34,OS Compatibility,End
+19,Start,Access System
+19,Access System,User Login
+19,User Login,Verify Credentials
+19,Verify Credentials,Agree to EULA
+19,Agree to EULA,Display Relevant Data and Relationships
+19,Display Relevant Data and Relationships,Navigate Menus
+19,Navigate Menus,Access System Functions
+19,Access System Functions,Perform Calculations
+19,Perform Calculations,End

@@ -1,6 +1,11 @@
 .venv
 
 bpmn-for-research-master
-se-requirements-classification
+/se-requirements-classification
 
 src/scripts/debugging.py
+
+**/**/__pycache__
+
+
+src/scripts/.env

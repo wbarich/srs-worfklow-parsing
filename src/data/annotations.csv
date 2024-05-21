@@ -1,0 +1,82 @@
+from_node,to_node,ProjectID
+Start,Access System,20
+Access System,View Menu,20
+View Menu,Exclusive Gateway: Need to log in?,20
+Exclusive Gateway: Need to log in?,User Login,20
+Exclusive Gateway: Need to log in?,End,20
+User Login,Verify Credentials,20
+Verify Credentials,Exclusive Gateway: Company network?,20
+Exclusive Gateway: Company network?,Successful Login and Redirection,20
+Exclusive Gateway: Company network?,Home Access Authorization,20
+Home Access Authorization,Exclusive Gateway: Authorized?,20
+Exclusive Gateway: Authorized?,Successful Login and Redirection,20
+Exclusive Gateway: Authorized?,End: Access Denied,20
+Successful Login and Redirection,Exclusive Gateway: User role?,20
+Exclusive Gateway: User role?,Menu Management,20
+Exclusive Gateway: User role?,Order Placement,20
+Menu Management,Save Changes,20
+Save Changes,Display Confirmation,20
+Display Confirmation,End,20
+Order Placement,Submit Order,20
+Submit Order,Encrypt Transactions,20
+Encrypt Transactions,Process Order,20
+Process Order,Display Confirmation,20
+Display Confirmation,End,20
+Successful Login and Redirection,End,20
+Order Placement,End,20
+View Menu,End,20
+Submit Query,Process Query,20
+Process Query,Load Query Results,20
+Load Query Results,End,20
+Log Out,Ensure Secure Termination,20
+Ensure Secure Termination,End,20
+Start,Display Logo and Basic Design,35
+Display Logo and Basic Design,Attractive Design According to Clients,35
+Attractive Design According to Clients,Comfortable User Experience,35
+Comfortable User Experience,Reflect Seriousness of Environment,35
+Reflect Seriousness of Environment,Manage Information from Database and Catalogue,35
+Manage Information from Database and Catalogue,Web Based Product,35
+Web Based Product,Integration with IT Services and Portal,35
+Integration with IT Services and Portal,Self-Supporting Registration System,35
+Self-Supporting Registration System,Compatible Web Interface,35
+Compatible Web Interface,Accessible to Stakeholders and Guests,35
+Accessible to Stakeholders and Guests,Secure and Private Client Access,35
+Secure and Private Client Access,Service Man Access,35
+Service Man Access,Identification through ID and Password,35
+Identification through ID and Password,Develop Security System,35
+Develop Security System,Minimize Corruption Risk,35
+Minimize Corruption Risk,End,35
+Start,User Access,34
+User Access,SSL Encryption,34
+SSL Encryption,Check for Confidential Information,34
+Check for Confidential Information,End: No Confidential Information,34
+Check for Confidential Information,Automatic Log Out,34
+Automatic Log Out,End,34
+User Access,Cookie Management,34
+Cookie Management,End: No Password Cookies,34
+User Access,Admin Server Access,34
+Admin Server Access,Authenticate Admin,34
+Authenticate Admin,End,34
+User Access,Data Encryption,34
+Data Encryption,End,34
+User Access,Redundant Database Storage,34
+Redundant Database Storage,End,34
+User Access,Component Reliability,34
+Component Reliability,Database Backup,34
+Database Backup,End,34
+Component Reliability,End,34
+User Access,OS Compatibility,34
+OS Compatibility,End,34
+Start,Access System,19
+Access System,User Login,19
+User Login,Verify Credentials,19
+Verify Credentials,EULA Agreement,19
+EULA Agreement,Successful Login and Redirection,19
+EULA Agreement,End: Access Denied,19
+Successful Login and Redirection,Exclusive Gateway: User role?,19
+Exclusive Gateway: User role?,Menu Navigation,19
+Exclusive Gateway: User role?,Access All Functions,19
+Menu Navigation,Navigate Menus,19
+Navigate Menus,End,19
+Access All Functions,Use All System Functions,19
+Use All System Functions,End,19
