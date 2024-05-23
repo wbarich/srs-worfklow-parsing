@@ -28,6 +28,16 @@ Here is a (truncated) Workflow of how a user would use the Google Maps app:
 
 In this work it is assumed that the System Requirements Specifications are the only source of knowledge that tell us about what the system is and how it works. However, this repository notes that this assumption is insufficient in some cases, and it may be beneficial to include additional information (like an overview of the system) to help an LLM understand what the system is about.
 
+**Setup**
+
+This project uses python 3.11.1 and poetry. 
+
+`poetry shell`
+
+`poetry install`
+
+See the scripts folder for detail of the implementation.
+
 # 2. Overview of Approach
 This work uses Generative AI and embedding models to generate Workflows from SRS data.
 
