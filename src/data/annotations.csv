@@ -1,35 +1,4 @@
 from_node,to_node,ProjectID
-Start,Access System,20
-Access System,View Menu,20
-View Menu,Exclusive Gateway: Need to log in?,20
-Exclusive Gateway: Need to log in?,User Login,20
-Exclusive Gateway: Need to log in?,End,20
-User Login,Verify Credentials,20
-Verify Credentials,Exclusive Gateway: Company network?,20
-Exclusive Gateway: Company network?,Successful Login and Redirection,20
-Exclusive Gateway: Company network?,Home Access Authorization,20
-Home Access Authorization,Exclusive Gateway: Authorized?,20
-Exclusive Gateway: Authorized?,Successful Login and Redirection,20
-Exclusive Gateway: Authorized?,End: Access Denied,20
-Successful Login and Redirection,Exclusive Gateway: User role?,20
-Exclusive Gateway: User role?,Menu Management,20
-Exclusive Gateway: User role?,Order Placement,20
-Menu Management,Save Changes,20
-Save Changes,Display Confirmation,20
-Display Confirmation,End,20
-Order Placement,Submit Order,20
-Submit Order,Encrypt Transactions,20
-Encrypt Transactions,Process Order,20
-Process Order,Display Confirmation,20
-Display Confirmation,End,20
-Successful Login and Redirection,End,20
-Order Placement,End,20
-View Menu,End,20
-Submit Query,Process Query,20
-Process Query,Load Query Results,20
-Load Query Results,End,20
-Log Out,Ensure Secure Termination,20
-Ensure Secure Termination,End,20
 Start,Display Logo and Basic Design,35
 Display Logo and Basic Design,Attractive Design According to Clients,35
 Attractive Design According to Clients,Comfortable User Experience,35
@@ -80,3 +49,23 @@ Menu Navigation,Navigate Menus,19
 Navigate Menus,End,19
 Access All Functions,Use All System Functions,19
 Use All System Functions,End,19
+Start,Operational Interface Check,36
+Operational Interface Check,Check Mean Time Between Failures,36
+Check Mean Time Between Failures,End: MTBF >= 7 days,36
+Operational Interface Check,Check System Availability,36
+Check System Availability,End: System Availability >= 99.5%,36
+Operational Interface Check,Security Mechanism Check,36
+Security Mechanism Check,Unauthorized User Access,36
+Unauthorized User Access,Exclusive Gateway: Trusted User?,36
+Exclusive Gateway: Trusted User?,Trusted User Access,36
+Exclusive Gateway: Trusted User?,Not Trusted User Access,36
+Trusted User Access,End,36
+Not Trusted User Access,End,36
+Operational Interface Check,Version Control Check,36
+Version Control Check,Controlled Source Code,36
+Controlled Source Code,End,36
+Operational Interface Check,Coding Standards Check,36
+Coding Standards Check,Adherence to Standards,36
+Adherence to Standards,End,36
+Operational Interface Check,Platform Independence Check,36
+Platform Independence Check,End,36
