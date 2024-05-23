@@ -14,3 +14,4 @@ def render_graph(nodes):
         dot.edge(node_pair[0], node_pair[1])
 
     display(dot)
+    
